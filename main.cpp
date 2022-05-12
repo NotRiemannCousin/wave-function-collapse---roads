@@ -93,7 +93,7 @@ int main()
 
 	Texture texture;
 
-	texture.loadFromFile("./images/Roads.png");
+	texture.loadFromFile("/images/Roads.png");
 
 	srand(time(0));
 
