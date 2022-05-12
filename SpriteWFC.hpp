@@ -3,7 +3,6 @@
 class SpriteWFC
 {
   private:
-	string filename = "./src/Roads.png";
 	vector<int> Right, Up, Down, Left;
 	Sprite sprite;
 	Grid *grid;
@@ -12,21 +11,21 @@ class SpriteWFC
 	static Texture texture;
 	enum State
 	{
-		Null,	   // 0	
+		Null,	        // 0	
 		
 		Path_V, 	// 1	║
 		
-		Path_H,	 // 2	═
+		Path_H,	        // 2	═
 		
-		Curve_U_R,  // 3	╚
+		Curve_U_R,      // 3	╚
 		
-		Curve_U_L,  // 4	╝
+		Curve_U_L,      // 4	╝
 		
-		Curve_D_R,  // 5	╔
+		Curve_D_R,      // 5	╔
 		
-		Curve_D_L,  // 6	╗
+		Curve_D_L,      // 6	╗
 		
-		ConvexPath, // 7	╬
+		ConvexPath,     // 7	╬
 		
 		T_U,		// 8	╩
 		
@@ -42,7 +41,7 @@ class SpriteWFC
 		
 		I_R,		//14	→
 		
-		I_L		 //15	←
+		I_L	 //15	←
 		
 	};
 
