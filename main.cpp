@@ -22,7 +22,6 @@ std::vector<Grid *> genStack;
 
 void wave(Texture &texture)
 {
-	//sleep(seconds(0.2));
 	for (auto &sp : Sp)
 	{
 		if (sp.getGrid()->getSet() == true)
@@ -94,7 +93,7 @@ int main()
 
 	Texture texture;
 
-	texture.loadFromFile("./src/Roads.png");
+	texture.loadFromFile("./images/Roads.png");
 
 	srand(time(0));
 
