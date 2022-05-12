@@ -41,7 +41,7 @@ class SpriteWFC
 		
 		I_R,		//14	→
 		
-		I_L	 //15	←
+		I_L 		//15	←
 		
 	};
 
